@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <headder>
+            <img class = "logoLeft logoHeight"  alt="Retro bike">
+            <img class = "logoRight logoHeight" alt="Retro bike">
+            <h1 class = "logoHeader">TELL US YOUR STORY</h1>
+        </headder>
+
+        <ul>
+            <li><a href="../html/home.html">Home</a></li>
+            <li><a href="../html/foto.html">Foto</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="content container">
+            <section>
+                <h3>Contact form</h3>
+                <p>If you have any bikes story, feel free to send us an email :)</p>
+            </section>
+
+            <section id="form-alerts">
+
+            </section>
+
+            <section class="contact-form">
+                <div class="form-grid" onchange="allowSubmitting()">
+                    <label class="form-label form-name-label">Full name:</label>
+                    <input class="form-input-name" id="fullname" type="text" placeholder="Enter your name">
+
+                    <label class="form-label form-email-label">Email:</label>
+                    <input class="form-input-email" id="email" type="text" placeholder="Give your email">
+
+                    <label class="form-label form-message-label">Message:</label>
+                    <textarea class="form-textarea-message" type="text" placeholder="Type your story here"></textarea>
+
+                    <button id="form-submit-button" onclick="validateInputs(); return false;" disabled>Submit</button>
+                </div>
+            </section>
+        </div>
+        <footer>Created by Magdalena Kiebała</footer>
+        <script src="../js/form-validation.js"></script>
+    </body>
+</html>
