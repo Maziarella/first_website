@@ -1,0 +1,205 @@
+html {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+body {
+    font-size: 25px;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 3.3vw;
+}
+
+h2 {
+    padding: 1vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    clear: both;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #990000;
+}
+
+
+.logoLeft {
+    content: url(../img/old_bike.png);
+    float: left;
+    margin-left: 3vw;
+
+}
+
+.logoRight {
+    content: url(../img/old_bike2.png);
+    float: right;
+    margin-right: 3vw;
+
+}
+
+.logoHeight {
+    height: 200px;
+}
+
+.logoHeader {
+    display: flex;
+    color: #990000;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   padding:0.3%;
+   text-align: center;
+   font-size: 18px;
+}
+
+.container {
+    margin: 0 5vw 0 5vw;
+}
+
+.contact-form {
+    padding-top: 1%;
+
+
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-template-rows: 15% 15% 30% 15%;
+    grid-row-gap: 1vw;
+}
+
+.form-label {
+    text-align: right;
+    padding-right: 1vw;
+}
+
+.form-name-label {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.form-email-label {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.form-message-label {
+    grid-row: 3;
+    grid-column: 1;
+
+}
+
+.form-input-name {
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.form-input-email {
+    grid-row: 2;
+    grid-column: 2;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.form-textarea-message {
+    grid-row: 3;
+    grid-column: 2;
+    height: 8vw;
+    font-size: 20px;
+    padding: 2%;
+
+}
+
+#form-submit-button:disabled {
+    grid-row: 5;
+    grid-column: 2;
+    padding: 1%;
+    background: #595959;
+    color: white;
+    font-size: 20px;
+
+}
+#form-submit-button {
+    grid-row: 5;
+    grid-column: 2;
+    padding: 1%;
+    background: #990000;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.alert-msg {
+    background-color: rgba(252, 59, 59, 0.5);
+    color: rgb(187, 14, 14);
+    border: 1px solid rgb(252, 59, 59);
+    padding: .5em .25em .5em 2em;
+    margin: 1em auto;
+}
+
+.success-msg {
+    background-color: rgba(130, 252, 59, 0.5);
+    color: rgb(10, 161, 73);
+    border: 1px solid rgb(130, 252, 59);
+    padding: .5em .25em .5em 2em;
+    margin: 1em auto;
+}
+
+.photos {
+    margin: 2vw;
+    display: flex;
+}
+
+.photo {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 5%;
+
+}
+
+
+.size {
+    width: 50%;
+}
